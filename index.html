@@ -100,7 +100,7 @@ const DEFAULT_DATA = {
   "nodes": [
     {
       "id": "Q0",
-      "text": "Which Category applies?",
+      "text": "What Road Category is it?",
       "options": [
         {
           "label": "CAT-A",
@@ -118,7 +118,7 @@ const DEFAULT_DATA = {
     },
     {
       "id": "CAT-A",
-      "text": "CAT-A: Road Level ?",
+      "text": "CAT-A: What Road Level is it ?",
       "options": [
         {
           "label": "Level 1",
@@ -132,18 +132,18 @@ const DEFAULT_DATA = {
     },
     {
       "id": "CAT-A L1",
-      "text": "CAT-A L1: Distance from carriageway?",
+      "text": "CAT-A L1: Where will your site be ?",
       "options": [
         {
-          "label": ">5 m away",
+          "label": "Berm (greater than 5m away from live lanes)",
           "result": "TMD A1.0: CAT-A L1 Offroad activity"
         },
         {
-          "label": "1–5 m away",
+          "label": "Shoulder (no impact on live lanes)",
           "next": "CAT-A L1 Shoulder"
         },
         {
-          "label": "≤1 m (very close or on the road itself)",
+          "label": "Road (or close enough to impact the lanes",
           "next": "CAT-A L1 Lane"
         }
       ]
@@ -192,18 +192,18 @@ const DEFAULT_DATA = {
     },
     {
       "id": "CAT-A L2",
-      "text": "CAT-A L2: Distance from carriageway?",
+      "text": "CAT-A L2: Where will your site be ?",
       "options": [
         {
-          "label": ">5 m away",
-          "result": "TMD A2.0: CAT-A L2 Offroad activity"
+          "label": "Berm (greater than 5m away from live lanes)",
+          "result": "TMD A1.0: CAT-A L2 Offroad activity"
         },
         {
-          "label": "1–5 m away",
+          "label": "Shoulder (no impact on live lanes)",
           "next": "CAT-A L2 Shoulder"
         },
         {
-          "label": "≤1 m (very close or on the road itself)",
+          "label": "Road (or close enough to impact the lanes",
           "next": "CAT-A L2 Lane"
         }
       ]
@@ -252,7 +252,7 @@ const DEFAULT_DATA = {
     },
     {
       "id": "CAT-B",
-      "text": "CAT-B: Road Level ?",
+      "text": "CAT-B: What Road Level is it ?",
       "options": [
         {
           "label": "Level 1",
@@ -266,18 +266,18 @@ const DEFAULT_DATA = {
     },
     {
       "id": "CAT-B L1",
-      "text": "CAT-B L1: Distance from carriageway?",
+      "text": "CAT-B L1: Where will your site be ?",
       "options": [
         {
-          "label": ">5 m away",
-          "result": "TMD B1.0: CAT-B L1 Offroad activity"
+          "label": "Berm (greater than 5m away from live lanes)",
+          "result": "TMD A1.0: CAT-B L1 Offroad activity"
         },
         {
-          "label": "1–5 m away",
+          "label": "Shoulder (no impact on live lanes)",
           "next": "CAT-B L1 Shoulder"
         },
         {
-          "label": "≤1 m (very close or on the road itself)",
+          "label": "Road (or close enough to impact the lanes",
           "next": "CAT-B L1 Lane"
         }
       ]
@@ -326,18 +326,18 @@ const DEFAULT_DATA = {
     },
     {
       "id": "CAT-B L2",
-      "text": "CAT-B L2: Distance from carriageway?",
+      "text": "CAT-B L2: Where will your site be ?",
       "options": [
         {
-          "label": ">5 m away",
-          "result": "TMD B2.0: CAT-B L2 Offroad activity"
+          "label": "Berm (greater than 5m away from live lanes)",
+          "result": "TMD A1.0: CAT-B L2 Offroad activity"
         },
         {
-          "label": "1–5 m away",
+          "label": "Shoulder (no impact on live lanes)",
           "next": "CAT-B L2 Shoulder"
         },
         {
-          "label": "≤1 m (very close or on the road itself)",
+          "label": "Road (or close enough to impact the lanes",
           "next": "CAT-B L2 Lane"
         }
       ]
@@ -386,18 +386,18 @@ const DEFAULT_DATA = {
     },
     {
       "id": "CAT-C L3",
-      "text": "CAT-C L3: Distance from carriageway?",
+      "text": "CAT-C L3: Where will your site be ?",
       "options": [
         {
-          "label": ">5 m away",
-          "result": "TMD C1.0: CAT-C L3 Offroad activity"
+          "label": "Berm (greater than 5m away from live lanes)",
+          "result": "TMD A1.0: CAT-C L3 Offroad activity"
         },
         {
-          "label": "1–5 m away",
+          "label": "Shoulder (no impact on live lanes)",
           "next": "CAT-C L3 Shoulder"
         },
         {
-          "label": "≤1 m (very close or on the road itself)",
+          "label": "Road (or close enough to impact the lanes",
           "next": "CAT-C L3 Lane"
         }
       ]
